@@ -3,7 +3,7 @@
 <suite name="RegressionTest">
 <test thread-count="5" name="TestOne">
 		<classes>
-			<class name="tests.HomeTest"/>
+			<class name="java.example.example.tests.FaceBookLoginTest.java"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
