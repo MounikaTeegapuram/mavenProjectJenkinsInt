@@ -19,9 +19,11 @@ public class GoogleSearchTest extends BaseTest {
 	 */
 	@Test
 	public void googleSearchTest() {
+		
 		driver.get("https://www.google.co.in/");
 		GooglePage googlePage = PageinstancesFactory.getInstance(GooglePage.class);
 		googlePage.searchText("abc");
+		System.out.println("Hello World");
 		Assert.assertTrue(driver.getTitle().contains("abc"), "Title doesn't contain abc : Test Failed");
 	}
 }
